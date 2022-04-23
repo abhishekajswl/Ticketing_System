@@ -1,0 +1,22 @@
+Table : BookingPortal (portalId, portalName)
+Table : MovieTicket (movieTicketId, movieName, ticketPrice)
+
+
+Application to track the booking portal and the movie tickets booked through the portals.
+
+Each bookingPortal can have multiple can have multiple movie ticket booked through it and one movie ticket is related to only one booking portal.
+
+
+1. CRUD Booking Portal.
+note: while deleting a booking portal, if the booking portal is deleted, the ticket booked shouldn't be deleted.
+
+2. CRUD Movie Ticket.
+note: while booking a ticket, register it under booking portal by passing booking portal id.
+
+3. Display all the booking portal and their related tickets, the tickets should be sorted in descending order of their price.
+
+
+
+Constrains:
+1. If we're registering the booking portal twice, there shouldn't be duplicate entries.
+2. Pass the bookingPortalName while booking a ticket.
